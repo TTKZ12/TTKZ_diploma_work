@@ -1,0 +1,46 @@
+name: TTKZ checks
+on: [push, pull_request]
+jobs:
+  frontend:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: frontend
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+          cache-dependency-path: frontend/package-lock.json
+      - run: npm ci
+      - run: npm run build
+  backend:
+    runs-on: ubuntu-latest
+    services:
+      postgres:
+        image: postgres:17-alpine
+        env:
+          POSTGRES_DB: ttkz_test
+          POSTGRES_USER: ttkz
+          POSTGRES_PASSWORD: ttkz_test
+        ports: ["5432:5432"]
+        options: >-
+          --health-cmd "pg_isready -U ttkz -d ttkz_test"
+          --health-interval 3s --health-timeout 3s --health-retries 20
+    env:
+      DATABASE_URL: postgresql+psycopg://ttkz:ttkz_test@localhost:5432/ttkz_test
+      TEST_DATABASE_URL: postgresql+psycopg://ttkz:ttkz_test@localhost:5432/ttkz_test
+    defaults:
+      run:
+        working-directory: backend
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - run: pip install -r requirements-dev.txt
+      - run: alembic upgrade head
+      - run: python -m app.seed
+      - run: alembic check
+      - run: pytest -q
