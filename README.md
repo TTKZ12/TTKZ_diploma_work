@@ -1,6 +1,6 @@
 # TTKZ — raw diploma platform
 
-A conceptual web platform for digital integration of Kazakhstan's table tennis community. Hall discovery and booking are the main flow; profiles, partner discovery, and tournament announcements support it.
+ conceptual web platform for digital integration of Kazakhstan's table tennis community. Hall discovery and booking are the main flow; profiles, partner discovery, and tournament announcements support it.
 
 ## Agreed stack
 
