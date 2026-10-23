@@ -1,19 +1,10 @@
-# TT KZ
+# Supporting documentation
 
-Design and Development of a TT KZ Web Platform for Digital Integration of Table Tennis Community in Kazakhstan.
+The final project document for pre-defense is the [root README](../README.md). It covers the current scope, team responsibilities, setup, demonstration, and remaining work.
 
-## Team responsibilities
+- [Architecture and migration plan](MIGRATION_PLAN.md): historical source assessment and proposed backend/API/database design.
+- [Verification record](VERIFICATION.md): current build evidence and earlier browser checks with their limitations.
+- [Asset provenance](ASSETS.md): visual assets and retained screenshot context.
+- [Historical first pre-defense audit](PREDEFENSE_PERIOD_1_AUDIT.md): findings for commit `1fc76fd`, before restoration of the current frontend. It is not an assessment of the current working tree.
 
-- Zhanybek Alikhan — Backend Developer: Python, FastAPI, PostgreSQL, API development, database design.
-- Tazhimova Araizhan — Frontend Developer: React, TypeScript, UI/UX, responsive layout, frontend integration.
-
-These responsibilities do not reassign Git commit authorship.
-
-## Current repository state
-
-The audited `main` commit is `1fc76fd55f99ab26bab7334fde56223f9bdfa20e`.
-It contains only `index.html`, a React mounting entry referencing `/src/main.tsx` and `/favicon.svg`; neither referenced file is present. There is no package manifest, React source, backend, database configuration, or runnable build in that snapshot. The planned stack is React/TypeScript, FastAPI/Python, and PostgreSQL; it is not implemented by the current tree.
-
-Earlier prototype code remains in Git history. Do not treat that historical code as included in the current submission or as verified by this audit.
-
-See [the pre-defense audit](docs/PREDEFENSE_PERIOD_1_AUDIT.md) for missing materials, PR findings, and the release gate. No submission tag has been created by this audit.
+The earlier audit identifies academic deliverables beyond a project README. Updating this documentation does not establish that those materials or university submission requirements are complete.

@@ -1,5 +1,7 @@
 # Forest → TTKZ: source analysis and staged migration
 
+> Supporting technical plan. For the current pre-defense scope, setup, and demonstration, use the [root README](../README.md). Reviewed for relevance on 23 October 2026. Original-source inspection details below are retained historical records and were not independently repeated in this review. Backend modules, API conventions, schema, and acceptance criteria remain proposals until implemented.
+
 ## 1. Inspected sources and current repository
 
 The supplied ZIP was read first (3,291 entries including dependencies and runtime data). It was subsequently unavailable at its original path; analysis continued from the matching extracted `Desktop/my_first_project/temporary-folder` copy. UI and code files were copied to a private temporary inspection directory. The original project was not modified or executed. Secrets, databases, user records, uploaded avatars, and node_modules were not copied into this repository.
@@ -20,7 +22,7 @@ The original is a CommonJS Express 5 / better-sqlite3 application with static HT
 | `images/` | Forest-specific photography, favicon, social icons |
 | `.env`, `data/`, `uploads/` | Private configuration and runtime records: excluded from migration |
 
-The TTKZ GitHub repository's current `main` (31282f7) has no application files following deletion commits. Work starts on `codex/parallax-redesign` from that existing history. Earlier prototype commits remain in history; no reset, rewrite, or force push is used.
+At the time of the original assessment, commit `31282f7` contained no application files following deletion commits, and the migration was planned on `codex/parallax-redesign`. That is historical context, not the present repository state. The current working tree contains the React frontend and supporting documentation; restoration commit `b199280` is present in local history.
 
 ## 2. Parallax assessment
 
@@ -84,7 +86,7 @@ frontend/src/
   services/            Catalog boundary, Fetch client
   types/               Domain preview contracts
   styles/              Tokens, global styles, catalog and form styles
-  assets/              Local project-owned visuals
+frontend/public/       Local hero image and favicon
 ```
 
 Use `/`, `/halls`, `/halls/:id`, `/players`, `/players/:id`, `/tournaments`, `/tournaments/:id`, `/news/:id`, `/about`, `/contact`, auth and account routes. No hash-based navigation. Direct navigation and refresh must work through the Vite SPA fallback. Preserve route contracts when server APIs arrive.
@@ -165,7 +167,9 @@ The half-open range allows adjacent sessions and rejects any overlapping active 
 
 Do not describe Phase 2 preview interactions as completed production workflows. No online payments, marketplace, real-time chat, AI assistant, live streaming, external federation/news integrations, or complex ranking are included.
 
-## Implementation references
+## Design references
+
+These links were retained from the original plan; external documentation was not revalidated during the pre-defense documentation review.
 
 - [React Router declarative routing](https://reactrouter.com/start/declarative/routing): route composition and nested layouts.
 - [MDN reduced-motion media query](https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-reduced-motion): motion preference handling.

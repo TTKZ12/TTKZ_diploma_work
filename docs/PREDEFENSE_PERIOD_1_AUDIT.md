@@ -1,4 +1,6 @@
-# First pre-defense submission audit
+# First pre-defense submission audit (historical snapshot)
+
+> Historical audit of commit `1fc76fd`, before restoration commit `b199280`. Its repository inventory, branch/PR states, tag findings, and release decision describe that earlier snapshot. They are not current status claims. Local history now includes the restored frontend and the `prob-period-1` tag at `81dbc95`; this documentation update does not move that tag or certify academic submission readiness. Use the [root README](../README.md) for the current project scope. The original audit is preserved below.
 
 Audit date: 23 October 2026 (Asia/Almaty).
 
