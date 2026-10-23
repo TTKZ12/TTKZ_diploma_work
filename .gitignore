@@ -1,0 +1,14 @@
+.DS_Store
+node_modules/
+frontend/dist/
+*.tsbuildinfo
+.env
+.env.*
+!.env.example
+.venv/
+__pycache__/
+.pytest_cache/
+*.db
+*.db-wal
+*.db-shm
+uploads/
