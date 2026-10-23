@@ -1,5 +1,9 @@
-# Backend planning status
+# Backend status
 
-The redesigned backend is intentionally not implemented in this homepage-first phase. See `../docs/MIGRATION_PLAN.md` for module boundaries, authentication/session requirements, PostgreSQL entities, overlap exclusion constraint, API conventions, and test acceptance criteria.
+The backend is **planned and not implemented**. Use the [root README](../README.md) as the primary project document for pre-defense.
 
-The original Express/SQLite application and earlier TTKZ demo remain outside this working tree/in Git history respectively. Their credentials and runtime records are not imported. The frontend currently uses labelled design fixtures and has no working account, reservation, partner-request, or contact-submission API.
+The current frontend uses labelled static catalog fixtures. Authentication, persistent profiles, reservations, partner requests, contact storage, and administrator tools are not connected to an API. There are no backend dependencies, startup commands, database migrations, or backend tests in this directory.
+
+The [supporting architecture and migration plan](../docs/MIGRATION_PLAN.md) proposes a FastAPI modular monolith with PostgreSQL, session authentication, ownership checks, safe uploads, and database-level booking overlap protection. These are future implementation requirements.
+
+The earlier Forest Express/SQLite application is not part of this working backend.
