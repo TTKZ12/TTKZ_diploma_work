@@ -19,6 +19,18 @@ export function PlayersPage() {
     [level, setLevel] = useState("All levels"),
     [preference, setPreference] = useState("Any time"),
     [search, setSearch] = useState("");
+  const hasActiveFilters =
+    city !== "All cities" ||
+    level !== "All levels" ||
+    preference !== "Any time" ||
+    search !== "";
+
+  const resetFilters = () => {
+    setCity("All cities");
+    setLevel("All levels");
+    setPreference("Any time");
+    setSearch("");
+  };
   const filtered = players.filter(
     (p) =>
       (city === "All cities" || p.city === city) &&
@@ -82,7 +94,18 @@ export function PlayersPage() {
       </div>
       <div className="catalog-caption">
         <span>{filtered.length} sample profiles</span>
-        <span>Every level belongs at the table</span>
+
+        {hasActiveFilters ? (
+          <button
+            type="button"
+            className="button button-outline"
+            onClick={resetFilters}
+          >
+            Reset filters
+          </button>
+        ) : (
+          <span>Every level belongs at the table</span>
+        )}
       </div>
       <div className="player-grid">
         {filtered.map((p) => (
