@@ -18,7 +18,7 @@ export function TournamentsPage() {
     .filter((t) =>
       `${t.name} ${t.city} ${t.venue}`
         .toLowerCase()
-        .includes(search.toLowerCase()),
+        .includes(search.trim().toLowerCase()),
     )
     .sort((a, b) => direction * a.date.localeCompare(b.date));
   const articles = news

@@ -20,7 +20,7 @@ export function HallsPage() {
       h.price <= price &&
       `${h.name} ${h.city} ${h.address}`
         .toLowerCase()
-        .includes(search.toLowerCase()),
+        .includes(search.trim().toLowerCase()),
   );
   return (
     <div className="container page-shell">

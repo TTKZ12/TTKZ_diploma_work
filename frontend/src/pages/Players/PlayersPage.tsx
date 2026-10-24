@@ -36,7 +36,7 @@ export function PlayersPage() {
       (city === "All cities" || p.city === city) &&
       (level === "All levels" || p.level === level) &&
       (preference === "Any time" || p.preference === preference) &&
-      p.name.toLowerCase().includes(search.toLowerCase()),
+      p.name.toLowerCase().includes(search.trim().toLowerCase()),
   );
   return (
     <div className="container page-shell">
