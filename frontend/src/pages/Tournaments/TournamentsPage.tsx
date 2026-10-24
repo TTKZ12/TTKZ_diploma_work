@@ -130,6 +130,13 @@ export function TournamentsPage() {
           <div className="empty-state">
             <h2>Nothing matches your search.</h2>
             <p>Try a different title, location, or keyword.</p>
+            <button
+            type="button"
+            className="button button-outline"
+            onClick={() => setSearch("")}
+            >
+  Clear search
+</button>
           </div>
         )}
       </section>
