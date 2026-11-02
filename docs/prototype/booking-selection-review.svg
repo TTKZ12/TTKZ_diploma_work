@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1460" viewBox="0 0 1200 1460"><rect width="1200" height="1460" fill="white"/>
+<rect x="30" y="20" width="1140" height="675" fill="white" stroke="#999" stroke-width="2"/>
+<rect x="30" y="20" width="1140" height="68" fill="#202724" stroke="#999" stroke-width="2"/>
+<text x="60" y="65" font-family="DejaVu Sans" font-size="30" font-weight="700" fill="white">TT KZ</text>
+<text x="830" y="62" font-family="DejaVu Sans" font-size="24" font-weight="400" fill="white">BOOKING DEMO</text>
+<text x="65" y="149" font-family="DejaVu Sans" font-size="34" font-weight="700" fill="#111">1  Select a table and time</text>
+<text x="65" y="200" font-family="DejaVu Sans" font-size="30" font-weight="700" fill="#111">Demo Hall, Astana  |  Table 1</text>
+<text x="65" y="246" font-family="DejaVu Sans" font-size="26" font-weight="400" fill="#111">Date</text>
+<rect x="65" y="260" width="475" height="60" fill="#fafafa" stroke="#999" stroke-width="2"/>
+<text x="85" y="300" font-family="DejaVu Sans" font-size="29" font-weight="400" fill="#111">07 November 2026     v</text>
+<text x="65" y="373" font-family="DejaVu Sans" font-size="28" font-weight="400" fill="#111">Available times (Astana local time, UTC+5)</text>
+<rect x="65" y="405" width="300" height="65" fill="#202724" stroke="#999" stroke-width="2"/>
+<text x="85" y="444" font-family="DejaVu Sans" font-size="27" font-weight="400" fill="white">18:00–19:00</text>
+<rect x="395" y="405" width="300" height="65" fill="#f3f3f3" stroke="#999" stroke-width="2"/>
+<text x="415" y="444" font-family="DejaVu Sans" font-size="27" font-weight="400" fill="#111">19:00–20:00</text>
+<text x="65" y="538" font-family="DejaVu Sans" font-size="28" font-weight="400" fill="#111">Selected: 18:00–19:00  |  Price: not supplied</text>
+<rect x="65" y="575" width="360" height="65" fill="#202724" stroke="#999" stroke-width="2"/>
+<text x="85" y="614" font-family="DejaVu Sans" font-size="27" font-weight="400" fill="white">Review booking &gt;</text>
+<text x="65" y="678" font-family="DejaVu Sans" font-size="23" font-weight="400" fill="#111">Illustrative availability. No live venue is connected.</text>
+<rect x="30" y="745" width="1140" height="675" fill="white" stroke="#999" stroke-width="2"/>
+<rect x="30" y="745" width="1140" height="68" fill="#202724" stroke="#999" stroke-width="2"/>
+<text x="60" y="790" font-family="DejaVu Sans" font-size="30" font-weight="700" fill="white">TT KZ</text>
+<text x="830" y="787" font-family="DejaVu Sans" font-size="24" font-weight="400" fill="white">BOOKING DEMO</text>
+<text x="65" y="874" font-family="DejaVu Sans" font-size="34" font-weight="700" fill="#111">2  Review before confirming</text>
+<text x="65" y="926" font-family="DejaVu Sans" font-size="31" font-weight="700" fill="#111">Demo Hall, Astana</text>
+<text x="65" y="979" font-family="DejaVu Sans" font-size="29" font-weight="400" fill="#111">Table 1  |  07 November 2026</text>
+<text x="65" y="1036" font-family="DejaVu Sans" font-size="29" font-weight="400" fill="#111">18:00–19:00  |  Astana local time (UTC+5)</text>
+<text x="65" y="1093" font-family="DejaVu Sans" font-size="29" font-weight="400" fill="#111">Price: not supplied by venue</text>
+<text x="65" y="1150" font-family="DejaVu Sans" font-size="29" font-weight="400" fill="#111">Cancellation: before the booking starts</text>
+<rect x="65" y="1200" width="340" height="65" fill="#202724" stroke="#999" stroke-width="2"/>
+<text x="85" y="1239" font-family="DejaVu Sans" font-size="27" font-weight="400" fill="white">Confirm booking</text>
+<rect x="445" y="1200" width="300" height="65" fill="#f3f3f3" stroke="#999" stroke-width="2"/>
+<text x="465" y="1239" font-family="DejaVu Sans" font-size="27" font-weight="400" fill="#111">Change time</text>
+<text x="65" y="1325" font-family="DejaVu Sans" font-size="25" font-weight="400" fill="#111">While pending: disable Confirm and show “Submitting…”</text>
+<text x="65" y="1375" font-family="DejaVu Sans" font-size="25" font-weight="400" fill="#111">Success is shown only after server acceptance.</text>
+</svg>

@@ -182,3 +182,34 @@ Online payments, real-time chat, external federation integrations, an AI assista
 [Desktop homepage screenshot](docs/screenshots/home-desktop.jpg) · [Mobile homepage screenshot](docs/screenshots/home-mobile.jpg)
 
 The screenshots are retained prototype captures rather than evidence of a deployed service. Hero imagery is documented as AI-generated concept imagery, and venue illustrations are SVG/CSS; neither verifies real venues or community members.
+
+## Current implementation status
+
+TT KZ currently provides a React and TypeScript frontend prototype
+with demonstration data.
+
+The frontend is not connected to a database or backend API.
+Displayed availability and confirmation states do not represent
+persisted reservations.
+
+A booking-conflict screen has not yet been implemented in the
+frontend. Any conflict mockup included in the report is a proposed
+design state.
+
+The selected backend stack is Python, FastAPI, PostgreSQL,
+SQLAlchemy and Alembic. Backend implementation remains planned.
+
+## Project documentation
+
+- [Revised report](docs/pre-defense/)
+- [Interview evidence](docs/research/interviews/)
+- [Comparison screenshots](docs/comparisons/screenshots/)
+- [Architecture diagrams](docs/diagrams/)
+- [Prototype screenshots and mockups](docs/prototype/)
+- [Evaluation plan](docs/evaluation/test-plan.md)
+- [Supervisor feedback](docs/supervisor-feedback/)
+
+## Team
+
+- Zhanybek Alikhan — backend development.
+- Tazhimova Araizhan — frontend development; GitHub account: RII77777.
