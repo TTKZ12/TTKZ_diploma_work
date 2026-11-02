@@ -1,0 +1,81 @@
+<mxfile host="app.diagrams.net">
+  <diagram id="hhvx2LEVnoZeDEeT3dW8" name="1">
+    <mxGraphModel dx="1022" dy="660" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="vQFi1i0iBnZ8dygIJ_Dw-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#3399FF;strokeColor=#0066CC;" value="&lt;pre dir=&quot;ltr&quot;&gt;&lt;code&gt;&lt;span style=&quot;text-align: left; white-space: normal;&quot;&gt;&lt;b&gt;TT KZ Web Platform&lt;/b&gt;&lt;br&gt;&lt;/span&gt;&lt;br&gt;Initial Pilot: Astana&lt;br&gt;Venue Discovery&lt;br&gt;Table Booking&lt;br&gt;Player Profiles&lt;br&gt;Partner Discovery&lt;br&gt;Tournament Information&lt;/code&gt;&lt;/pre&gt;" vertex="1">
+          <mxGeometry height="130" width="196" x="330" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="vQFi1i0iBnZ8dygIJ_Dw-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#99CCFF;strokeColor=#3399FF;" value="&#xa;&lt;code&gt;Guest&lt;/code&gt;&#xa;&#xa;" vertex="1">
+          <mxGeometry height="60" width="120" x="120" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="vQFi1i0iBnZ8dygIJ_Dw-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#99CCFF;strokeColor=#3399FF;" value="&#xa;&lt;code&gt;Venue Manager&lt;/code&gt;&#xa;&#xa;" vertex="1">
+          <mxGeometry height="60" width="120" x="680" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="vQFi1i0iBnZ8dygIJ_Dw-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#99CCFF;strokeColor=#3399FF;" value="&#xa;&lt;code&gt;Registered Player&lt;/code&gt;&#xa;&#xa;" vertex="1">
+          <mxGeometry height="60" width="120" x="130" y="510" as="geometry" />
+        </mxCell>
+        <mxCell id="vQFi1i0iBnZ8dygIJ_Dw-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#99CCFF;strokeColor=#3399FF;" value="&#xa;&lt;code&gt;Tournament Organizer&lt;/code&gt;&#xa;&#xa;" vertex="1">
+          <mxGeometry height="60" width="120" x="680" y="510" as="geometry" />
+        </mxCell>
+        <mxCell id="vQFi1i0iBnZ8dygIJ_Dw-11" edge="1" parent="1" source="vQFi1i0iBnZ8dygIJ_Dw-2" style="endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" target="vQFi1i0iBnZ8dygIJ_Dw-5" value="&lt;code dir=&quot;ltr&quot;&gt;Search results&lt;/code&gt;&lt;div&gt;&lt;code dir=&quot;ltr&quot;&gt;and booking status&lt;/code&gt;&lt;br&gt;&lt;/div&gt;">
+          <mxGeometry height="50" relative="1" width="50" x="0.2619" y="-62" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="303" y="530" as="sourcePoint" />
+            <mxPoint x="353" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vQFi1i0iBnZ8dygIJ_Dw-12" edge="1" parent="1" source="vQFi1i0iBnZ8dygIJ_Dw-2" style="endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=1;entryDx=0;entryDy=0;align=left;" target="vQFi1i0iBnZ8dygIJ_Dw-3" value="&lt;br&gt;&lt;code&gt;Venue and&lt;/code&gt;&lt;div&gt;&lt;code&gt;tournament details&lt;/code&gt;&lt;br&gt;&lt;br&gt;&lt;/div&gt;">
+          <mxGeometry height="50" relative="1" width="50" x="0.1111" y="-28" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="310" y="140" as="sourcePoint" />
+            <mxPoint x="360" y="90" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vQFi1i0iBnZ8dygIJ_Dw-13" edge="1" parent="1" source="vQFi1i0iBnZ8dygIJ_Dw-3" style="endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=-0.008;entryY=0.166;entryDx=0;entryDy=0;entryPerimeter=0;" target="vQFi1i0iBnZ8dygIJ_Dw-2" value="&lt;br&gt;&lt;span&gt;&lt;/span&gt;&lt;code dir=&quot;ltr&quot;&gt;Request venue and&lt;/code&gt;&lt;div&gt;&lt;code dir=&quot;ltr&quot;&gt;tournament information&lt;/code&gt;&lt;br&gt;&lt;br&gt;&lt;/div&gt;">
+          <mxGeometry height="50" relative="1" width="50" x="-1" y="-71" as="geometry">
+            <mxPoint x="-1" y="-2" as="offset" />
+            <mxPoint x="230" y="200" as="sourcePoint" />
+            <mxPoint x="300" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vQFi1i0iBnZ8dygIJ_Dw-14" edge="1" parent="1" source="vQFi1i0iBnZ8dygIJ_Dw-5" style="endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.122;entryY=0.991;entryDx=0;entryDy=0;entryPerimeter=0;" target="vQFi1i0iBnZ8dygIJ_Dw-2" value="&lt;code&gt;Manage profile,&lt;/code&gt;&lt;div&gt;&lt;code&gt;find partners,&lt;/code&gt;&lt;/div&gt;&lt;div&gt;&lt;code&gt;book or cancel&lt;/code&gt;&lt;br&gt;&lt;/div&gt;">
+          <mxGeometry height="50" relative="1" width="50" x="0.2026" y="-47" as="geometry">
+            <mxPoint y="1" as="offset" />
+            <mxPoint x="390" y="390" as="sourcePoint" />
+            <mxPoint x="440" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vQFi1i0iBnZ8dygIJ_Dw-15" edge="1" parent="1" source="vQFi1i0iBnZ8dygIJ_Dw-2" style="endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" target="vQFi1i0iBnZ8dygIJ_Dw-6" value="&lt;code&gt;Published tournament&lt;/code&gt;&lt;div&gt;&lt;code&gt;details&lt;/code&gt;&lt;br&gt;&lt;/div&gt;">
+          <mxGeometry height="50" relative="1" width="50" x="-0.7222" y="-72" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="390" y="420" as="sourcePoint" />
+            <mxPoint x="440" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vQFi1i0iBnZ8dygIJ_Dw-16" edge="1" parent="1" source="vQFi1i0iBnZ8dygIJ_Dw-6" style="endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;exitX=0.153;exitY=-0.04;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.831;entryDx=0;entryDy=0;entryPerimeter=0;" target="vQFi1i0iBnZ8dygIJ_Dw-2" value="&lt;br&gt;&lt;code&gt;Create and&amp;nbsp;&lt;/code&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;update&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;tournament information&lt;/span&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;">
+          <mxGeometry height="50" relative="1" width="50" x="-0.5424" y="-73" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="610" y="350" as="sourcePoint" />
+            <mxPoint x="530" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vQFi1i0iBnZ8dygIJ_Dw-17" edge="1" parent="1" source="vQFi1i0iBnZ8dygIJ_Dw-2" style="endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;entryX=0;entryY=1;entryDx=0;entryDy=0;exitX=1;exitY=0;exitDx=0;exitDy=0;" target="vQFi1i0iBnZ8dygIJ_Dw-4" value="&lt;code dir=&quot;ltr&quot;&gt;Venue schedule&lt;/code&gt;&lt;div&gt;&lt;code dir=&quot;ltr&quot;&gt;and booking records&lt;/code&gt;&lt;br&gt;&lt;/div&gt;">
+          <mxGeometry height="50" relative="1" width="50" x="-0.2712" y="43" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="620" y="320" as="sourcePoint" />
+            <mxPoint x="440" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vQFi1i0iBnZ8dygIJ_Dw-18" edge="1" parent="1" source="vQFi1i0iBnZ8dygIJ_Dw-4" style="endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.996;entryY=0.166;entryDx=0;entryDy=0;entryPerimeter=0;" target="vQFi1i0iBnZ8dygIJ_Dw-2" value="&lt;code&gt;Update venue,&lt;/code&gt;&lt;div&gt;&lt;code&gt;tables and availability&lt;/code&gt;&lt;br&gt;&lt;/div&gt;">
+          <mxGeometry height="50" relative="1" width="50" x="-0.1693" y="51" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="610" y="240" as="sourcePoint" />
+            <mxPoint x="530" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
